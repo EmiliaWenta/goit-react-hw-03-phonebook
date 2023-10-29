@@ -19,13 +19,12 @@
 - This project concerns task no. 3 from the GoIT react.js module course.
 - Task goal: learnig how to using lifeCycle to use webtorage in React.
 - Main setup and functionality.
-  1. Form - here you can add new contact (name and phone-number).
-  2. The updated contact list is displayed below.
-  3. You can remove some contacts if you need.
-  4. It is impossible to add an existing contact, an appropriate message will be
-     displayed.
-  5. You can filter your contacts.
-  6. If You return to the website later, your saved contacts will be shown.
+  - Form - here you can add new contact (name and phone-number).
+  - The updated contact list is displayed below.
+  - You can remove some contacts if you need.
+  - It is impossible to add an existing contact, an appropriate message will be displayed.
+  - You can filter your contacts.
+  - If You return to the website later, your saved contacts will be shown.
 
 ## Technologies Used
 
@@ -41,7 +40,8 @@ Project is created with:
 
 ## Screenshots
 
-![components app](https://github.com/EmiliaWenta/goit-react-hw-01/assets/main-setup.PNG)
+![main-setup](https://github.com/EmiliaWenta/goit-react-hw-03-phonebook/assets/126571469/faf1c1cf-c3e7-48d1-93e6-180847562d7a)
+
 
 ## Setup
 
