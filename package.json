@@ -5,6 +5,7 @@
   "homepage": "https://emiliawenta.github.io/goit-react-hw-03-phonebook/",
   "dependencies": {
     "components": "^0.1.0",
+    "eslint-config-react-app": "^7.0.1",
     "nanoid": "^5.0.2",
     "prop-types": "^15.8.1",
     "react": "^18.1.0",

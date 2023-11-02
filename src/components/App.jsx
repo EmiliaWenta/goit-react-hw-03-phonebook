@@ -16,12 +16,12 @@ export class App extends Component {
     ...INITIAL_STATE,
   };
 
-  // resetowanie formularza
+
   reset = form => {
     form.elements.name.value = this.state.initialValue;
     form.elements.number.value = this.state.initialValue;
   };
-  //zmiana stanu
+
   handleSubmit = e => {
     e.preventDefault();
     const loginInputId = nanoid();
@@ -44,11 +44,11 @@ export class App extends Component {
     }
     this.reset(form);
   };
-  //zmiana stanu
+
   changeSubmit = e => {
     this.setState({ filter: e.target.value });
   };
-  // zmiana stanu
+
   deleteContact = id => {
     this.setState(({ contacts }) => ({
       contacts: contacts.filter(cont => cont.id !== id),
